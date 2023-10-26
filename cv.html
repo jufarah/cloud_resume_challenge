@@ -1,31 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Juweria Farah's CV</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-<div class="jumbotron text-center" style="height: 50%;">
-  <h1 style="font-size: x-large;">Juweria Farah</h1>
-  <p> Automation Developer</p>
-            <p style="font-size: medium;" class="text-center"> <a href="https://www.linkedin.com/in/juweria-farah-001862106"> Linkedin: www.linkedin.com/in/juweria-farah-001862106</a></p>
-            <p class="text-center" ><a href="mailto:juweria.06@gmail.com"> juweria.06@gmail.com</a></p>
-            <p class="text-center"><a href="tel:+447944881741"> tel: +447944881741</a> </p>
-            
+<!--Jumbotoron-->
+<div class="jumbotron">
+  <div class="container">
+  <img src="nebula-02.jpg" alt="stars" class="nebula-02" >
+  <h1>Juweria Farah</h1>
+  <hr class="style-seven" />
+  <h4> Automation Developer</h4>
+  <p>
+    <a class="btn btn-lg btn-clear-light soft-transition" href="https://github.com/jufarah" role="button" target="_blank"><i class="fa fa-github-square"> Github</i></a>
+    <a class="btn btn-lg btn-clear-light soft-transition" href="https://www.linkedin.com/in/juweria-farah-001862106
+		" role="button" target="_blank"><i class="fa fa-linkedin-square"> LinkedIn</i></a>
+    <a class="btn btn-lg btn-clear-light soft-transition" href="mailto:juweria.06@gmail.com" role="button" target="_blank"><i class="fa fa-envelope-square"> Email</i></a>
+    <a class="btn btn-lg btn-clear-light soft-transition" href="tel:+447944881741" role="button" target="_blank"><i class="fa fa-phone-square"> Phone</i></a>
+    <a class="btn btn-lg btn-clear-light soft-transition" href="juweria-farah.pdf" role="button" target="_blank"><i class="fa fa-file-pdf-o"> Download Resume PDF version</i></a>
+    
+  </p>
+  </div>       
 </div>
-  <div class="card text-center">
-    <div class="card-body">
-      <img src="picofresume.png" class="card-img-top" alt="..." width="350px">
-      <p class="card-text" style="font-style: italic;">If you wish to see a pdf version of my resume please click the button below.</p>
-      <a href="juweria-farah.pdf" class="btn btn-primary">Resume in pdf format</a>
+
+
+
+<!--- navbar-->
+<div class="container-fluid">
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="container">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+
+        <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="#about">About</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#skills">Skills</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
+  </nav>
+
+  <!--------------------------
+			--     About Section      --
+			--------------------------->
+      <section id="about" class="teall-bg">
+
+        <div class="container">
+    
+          <h1>About</h1>
+          <hr class="style-seven" />
+          <p>
+            A true creative who enjoys the process of building, new challenges, new ideas, and elegant solutions. I have trained for years in a number of creative diciplines including music composition, graphic design, illustration, and computer programming. I have
+            a keen eye and strong sense of connection to the user's needs.
+          </p>
+    
+        </div>
+    
+      </section>
+
+
+
+  <section id="resume">
+    <div class="container">
+      <h1> Resume </h1>
+      <hr class="style-seven">
+      <div class="row">
+        <div class="col-md-4 soft-transition">
+            <div class="project-overlay teall-bg"></div>
+            <img src="working.png" alt="work experience thumbnail" class="project-thumb" width="300px">
+            <a class="btn btn-lg btn-clear-light soft-transition" href="workexperience.html" role="button" target="_blank"> <h3>Work Experience</h3></a>
+          </a>
+    </div>
+    <div class="col-md-4 soft-transition">
+      <div class="project-overlay teall-bg"></div>
+            <img src="degree.png" alt="education thumbnail" class="project-thumb" width="300px">
+            <a class="btn btn-lg btn-clear-light soft-transition" href="Education.html" role="button" target="_blank"> <h3>Education</h3></a>
+          </a>
+    </div>
+    <div class="col-md-4 soft-transition">
+      <div class="project-overlay teall-bg"></div>
+            <img src="certifications.png" alt="certifications thumbnail" class="project-thumb" width="300px">
+            <a class="btn btn-lg btn-clear-light soft-transition" href="workexperience.html" role="button" target="_blank"> <h3>Certifications</h3></a>
+          </a>
+    </div>
+    <div class="col-md-4 soft-transition">
+      <div class="project-overlay teall-bg"></div>
+            <img src="projects.png" alt="projects thumbnail" class="project-thumb" width="300px">
+            <a class="btn btn-lg btn-clear-light soft-transition" href="project.html" role="button" target="_blank"> <h3>Projects</h3></a>
+          </a>
     </div>
     </div>
 
+  </section>
+  <!--------------------------
+			--     Skills Section     --
+			--------------------------->
+  <section id="skills">
+
+    <div class="container">
+
+      <h1>Skills</h1>
+      <hr class="style=seven" />
+
+      <ul class="list-inline">
+        <li><img src="html.png" alt="html5" width="200px"></li>
+        <li><img src="css.png" alt="css" width="130px"></li>
+        <li><img src="python.svg" alt="python" width="250px"></li>
+        <li><img src="aws.png" alt="aws"width="200px" ></li>
+        <li><img src="azure.png" alt="azure" width="300px"></li>
+        <li><img src="azuredevops.png" alt="azuredevops" width="200px"></li>
+        <li><img src="terraform.svg" alt="terraform" width="200px"></li>
+        <li><img src="ansible.png" alt="ansible" width="150px"></li>
+        <li><img src="redhat.png" alt="redhat" width="200px"></li>
+        <li><img src="jira.png" alt="jira" width="300px"></li>
+        <li><img src="powerautomate.webp" alt="powerautomate" width="200px"></li>
+
+      </ul>
+
     </div>
+  </section>
+
+
+
+
